@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shirts</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #f5f5f5;
+            font-family: times new roman;
+        }
+        header {
+            width: 100%;
+            height: 60px;
+            background: black;
+            color: white;
+            position: fixed;
+        }
+        header h1 {
+            padding: 10px 10px;
+            float: left;
+        }
+        header span {
+            color: orange;
+        }
+        nav {
+            float: right;
+            padding-right: 20px;
+            padding-top: 20px;
+        }
+        nav a {
+            font-weight: bold;
+            font-size: small;
+            text-decoration: none;
+            color: white;
+            border-radius: 5px;
+            padding: 5px 5px;
+        }
+        nav a.active, a:hover {
+         background: orange;
+        }
+        section {
+            padding-top: 60px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 50%);
+            grid-gap: 10px;
+            padding: 10px 20px;
+        }
+        .container .box img {
+             width: 50%;
+            height: 100px;
+            padding: 10px 25%;
+        }
+        .container .box {
+            width: 100%;
+            background-color: white;
+            border-radius: 10px;
+        }
+        .container .box p {
+            font-weight: bold;
+            padding-bottom: 15px;
+            text-align: center;
+        }
+        .container a {
+            text-decoration: none;
+            color: black;
+        }
+        .container a:hover{
+            background: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Shop<span>IT</span></h1>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+    <section>
+        <div class="container">
+            <a href="s12.html"><div class="box"><img src="./Shirts/12.jpg"><p>&#8358 4,230</p></div></a>
+            <a href="s11.html"><div class="box"><img src="./Shirts/11.jpg"><p>&#8358 4,230</p></div></a>
+            <a href="s10.html"><div class="box"><img src="./Shirts10.jpg"><p>&#8358 4,230</p></div></a>
+            <a href="s9.html"><div class="box"><img src="./Shirts/9.jpg"><p>&#8358 4,230</p></div></a>
+            <a href="s8.html"><div class="box"><img src="./Shirts/8.jpg"><p>&#8358 4,230</p></div></a>
+            <a href="s7.html"><div class="box"><img src="./Shirts/7.jpg"><p>&#8358 4,230</p></div></a>
+            <a href="s6.html"><div class="box"><img src="./Shirts/6.jpg"><p>&#8358 4,230</p></div></a>
+            <a href="s5.html"><div class="box"><img src="./Shirts/5.jpg"><p>&#8358 4,230</p></div></a>
+            <a href="s4.html"><div class="box"><img src="./Shirts/4.jpg"><p>&#8358 4,230</p></div></a>
+            <a href="s3.html"><div class="box"><img src="./Shirts/3.jpg"><p>&#8358 4,230</p></div></a>
+            <a href="s2.html"><div class="box"><img src="./Shirts/2.jpg"><p>&#8358 4,230</p></div></a>
+            <a href="s1.html"><div class="box"><img src="./Shirts/1.jpg"><p>&#8358 4,230</p></div></a>
+        </div>
+    </section>
+</body>
+</html>

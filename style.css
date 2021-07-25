@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    font-family: times new roman;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background: black;
+    color: white;
+    position: fixed;
+}
+header h1{
+    padding: 10px 10px;
+    float: left;
+}
+header span{
+    color: orange;
+}
+nav{
+    float: right;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+nav a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 5px;
+    font-size: small;
+}
+nav a.active, a:hover{
+    background: orange;
+}
+.banner{
+    padding-top: 60px;
+}
+.wrapper{
+    width: 100%;
+    height: 300px;
+    color: black;
+    background: url(./Images/banner.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+}
+.wrapper p{
+    text-align: center;
+    padding: 100px 0 0 0;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+}
+.wrapper p span{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+}
+.service{
+    width: 100%;
+    height: 30px;
+    background: orange;
+    color: black;
+}
+.service h3{
+    padding-top: 6px;
+    padding-left: 10px;
+    font-size: medium;
+    font-style: italic;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-gap: 5px;
+    padding: 10px 10px;
+    background: white;
+}
+.container a{
+    text-decoration: none;
+    color: black;
+}
+.container a:hover{
+    background: white;
+}
+.box1{
+    width: 100%;
+    height: 150px;
+    background: url(./Hoodies/8.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 150px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 10px;
+}
+.box2{
+    width: 100%;
+    height: 150px;
+    background: url(./Shirts/7.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 150px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 10px;
+}
+.box3{
+    width: 100%;
+    height: 150px;
+    background: url(./Wristwatches/7.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 150px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 10px;
+}
+.container .box p{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+    font-style: italic;
+}
+.Instruction{
+    height: 45px;
+    text-align: center;
+    border-left: 10px solid orange;
+    border-right: 10px solid orange;
+    padding-bottom: 0 20px;
+    background: #f5f5f5;
+}
+.Instruction h2{
+    padding: 10px 0;
+    font-size: medium;
+}
+.step{
+    margin-bottom: 20px;
+}
+.step ul li{
+    font-weight: bold;
+    padding: 10px 10px;
+    font-size: small;
+}
+footer{
+    display: flex;
+    background: black;
+    width: 100%;
+    padding: 20px 0;
+}
+.left-column, .right-column{
+    flex-basis: 50%;
+    padding-left: 20px;
+}
+footer h4{
+    font-weight: bold;
+    color: white;
+    font-size: small;
+}
+footer ul li{
+    list-style: none;
+    padding-bottom: 5px;
+    color: white;
+    font-size: small;
+    font-style: italic;
+}
+footer ul{
+    padding-bottom: 20px;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    background-color: black;
+}
+.right-column button{
+    width: 120px;
+    height: 30px;
+    background: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+body .copyright{
+    text-align: center;
+}

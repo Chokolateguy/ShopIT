@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S3</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #f5f5f5;
+            font-family: times new roman;
+        }
+        header {
+            width: 100%;
+            height: 60px;
+            background: black;
+            color: white;
+            position: fixed;
+        }
+        header h1 {
+            padding: 10px 10px;
+            float: left;
+        }
+        header span {
+            color: orange;
+        }
+        nav {
+            float: right;
+            padding-right: 20px;
+            padding-top: 20px;
+        }
+        nav a {
+            font-weight: bold;
+            font-size: small;
+            text-decoration: none;
+            color: white;
+            border-radius: 5px;
+            padding: 5px 5px;
+        }
+        nav a:hover {
+            background: orange;
+        }
+        .details {
+            padding: 60px 20px 10px 20px;
+        }
+        .img {
+            background: white;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+        .img img {
+            width: 40%;
+            height: 150px;
+            padding: 10px 30%;
+        }
+        #details {
+            display: flex;
+            background: white;
+            border-radius: 10px;
+            padding: 0 10px 10px 10px;
+            font-size: small;
+        }
+        .left-column, .right-column {
+            flex-basis: 50%;
+        }
+        .left-column {
+            padding-left: 10px;
+        }
+        .right-column {
+            text-align: center;
+        }
+        #details p {
+            font-weight: bold;
+            padding-top: 10px;
+        }
+        button {
+            margin-top: 10px;
+            background: orange;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            width: 80px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Shop<span>IT</span></h1>
+        <nav>
+            <a class="active" href="index.html">Home</a>
+        </nav>
+    </header>
+    <div class="details">
+        <div class="img">
+            <a href="./Shirts/3.jpg"><img src="./Shirts/3.jpg"></a>
+        </div>
+        <div id="details">
+            <div class="left-column">
+                <p>Iris clothing</p>
+                <p>Price: &#8358 4,230</p>
+                <p>Delivery fee: &#8358 300</p>
+            </div>
+            <div class="right-column">
+                <a href="https://wa.me/message/5EZ5B6VMXQ27B1"><button>Order</button></a>
+                <p style="font-weight: bold;">Only make payment after receiving product!!!</p>
+                <p style="font-weight: bold;">Do not make any<br>transaction indoors!!!</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
